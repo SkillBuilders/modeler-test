@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="97242454-7DAB-3997-1D4A-27FAC0C4F313" name="CRM_NAICS_CODES">
+<sourceConnName>SB@ADEV</sourceConnName>
+<sourceObjSchema>SB</sourceObjSchema>
+<sourceObjName>CRM_NAICS_CODES</sourceObjName>
+<createdBy>admin</createdBy>
+<createdTime>2021-04-26 17:19:07 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<importedID>5A4CAF35-1A36-C7C1-FE41-954BBAE456E2</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="AB80078B-FC6F-222F-7EF4-9B353CC349E4">
+<sourceConnName>SB@ADEV</sourceConnName>
+<sourceObjSchema>CRM_NAICS_CODES</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>admin</createdBy>
+<createdTime>2021-04-26 17:19:07 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<importedID>14406915-EB1C-10DB-5115-E731BE26F0D5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODE" id="369A74B1-4A70-D861-D439-F7AAA79D10BC">
+<sourceConnName>SB@ADEV</sourceConnName>
+<sourceObjSchema>CRM_NAICS_CODES</sourceObjSchema>
+<sourceObjName>CODE</sourceObjName>
+<createdBy>admin</createdBy>
+<createdTime>2021-04-26 17:19:07 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<importedID>1DD930DE-7090-73E4-76B1-D7DD89691C31</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITLE" id="19838082-B07A-7E5E-7F07-70BED03CE67B">
+<sourceConnName>SB@ADEV</sourceConnName>
+<sourceObjSchema>CRM_NAICS_CODES</sourceObjSchema>
+<sourceObjName>TITLE</sourceObjName>
+<createdBy>admin</createdBy>
+<createdTime>2021-04-26 17:19:07 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<importedID>941517AA-DBF1-D63C-563D-A445EFD10EB1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="235FF05C-A967-81B4-2C9C-7C61D67BC496" name="CRM_NCD_PK">
+<sourceConnName>SB@ADEV</sourceConnName>
+<sourceObjSchema>SB</sourceObjSchema>
+<sourceObjName>CRM_NCD_PK</sourceObjName>
+<createdBy>admin</createdBy>
+<createdTime>2021-04-26 17:19:07 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<importedID>EF1B1E3B-5628-44E8-C02B-3B1024B203CF</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB80078B-FC6F-222F-7EF4-9B353CC349E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3B78A9D-A690-AF8A-8E2C-ED16208A62AB" name="CRM_NCD_PK_IDX">
+<sourceConnName>SB@ADEV</sourceConnName>
+<sourceObjSchema>SB</sourceObjSchema>
+<sourceObjName>CRM_NCD_PK_IDX</sourceObjName>
+<createdBy>admin</createdBy>
+<createdTime>2021-04-26 17:19:07 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<importedID>3A61A9C3-5466-B68D-58CB-764DC699FCD4</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB80078B-FC6F-222F-7EF4-9B353CC349E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

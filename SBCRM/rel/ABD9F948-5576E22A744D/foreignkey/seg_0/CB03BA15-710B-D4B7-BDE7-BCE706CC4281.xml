@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CB03BA15-710B-D4B7-BDE7-BCE706CC4281" containerWithKeyObject="1B95AFF7-C911-13F2-2343-C76E433900AF" localFKIndex="C6CC5AE6-8588-0BB4-31E8-BF27525C5295" name="CRM_ADS_CRM_STT_FK">
+<createdBy>admin</createdBy>
+<createdTime>2021-03-29 20:15:30 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<referredTableLongName>CRM_STATES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AC3EDE73-0E57-87A7-9BA8-B2B8F037B295</referredTableID>
+<keyObject>DBF2EB7F-5373-AD8A-9381-06650238ABFC</keyObject>
+<referredKeyID>DBF2EB7F-5373-AD8A-9381-06650238ABFC</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>STATE_CODE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC3EDE73-0E57-87A7-9BA8-B2B8F037B295" name="CRM_STATES">
+<createdBy>admin</createdBy>
+<createdTime>2021-03-29 20:11:48 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<abbreviation>CRM_STT</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STATE_CODE" id="D99D3235-5A45-B47C-A14A-198994F18162">
+<createdBy>admin</createdBy>
+<createdTime>2021-03-29 20:11:48 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATE_NAME" id="DFD5D465-F675-18F9-6212-5E76A4D39342">
+<createdBy>admin</createdBy>
+<createdTime>2021-03-29 20:11:48 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>93CF8703-EC08-38A0-AA29-24D387444FD7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DBF2EB7F-5373-AD8A-9381-06650238ABFC" name="CRM_STT_PK">
+<createdBy>admin</createdBy>
+<createdTime>2021-03-29 20:11:48 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D99D3235-5A45-B47C-A14A-198994F18162"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7BA61A92-35A8-7160-01CC-86CF96FAF02C" name="CRM_STT_PK_IDX">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 19:13:52 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D99D3235-5A45-B47C-A14A-198994F18162"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="CRM_ACY_BIU_TRG" directorySegmentName="seg_0" id="DDA916D3-4C8D-BECD-5ADD-EFDB802E7803">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-17 15:13:07 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body><![CDATA[BEGIN
+   IF INSERTING THEN
+      IF :NEW.id IS NULL THEN
+         SELECT crm_acy_pk_seq.NEXTVAL INTO :NEW.id FROM DUAL;
+      END IF;
+      IF :NEW.enabled IS NULL THEN
+         :NEW.enabled := 'YES';
+      END IF;
+      :NEW.created_by := NVL(V('APP_USER'), USER);
+      :NEW.creation_date := SYSDATE;
+   END IF;
+   :NEW.modified_by := NVL(V('APP_USER'), USER);
+   :NEW.modification_date := SYSDATE;
+END;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<table>640FD6E6-752B-FEBB-3BF3-3DA8919938BE</table>
+</TriggerOraclev10g>

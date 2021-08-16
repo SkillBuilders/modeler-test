@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="A46AD3A1-AB35-4CE8-124C-40CF295DF4DF" name="CRM_ADS_CRM_CTT_ARC">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-02 14:18:12 UTC</createdTime>
+<ownerDesignName>SBCRM001</ownerDesignName>
+<mandatory>false</mandatory>
+<table>1B95AFF7-C911-13F2-2343-C76E433900AF</table>
+<fkeys>
+<fkeyID>809735C7-E03B-46FD-CF2C-B7BF8ADDA0E9</fkeyID>
+<fkeyID>D1F12C1A-015D-6181-E866-143C2E07DE70</fkeyID>
+</fkeys>
+</FKArc>

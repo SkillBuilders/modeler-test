@@ -1,0 +1,246 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5E0F0FC-7C4E-2F6F-1B63-DED96C5A4DC7" name="CRM_ACCOUNTS_CONTACTS">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-01 13:50:13 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<abbreviation>CRM_ACS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="BC18DA40-647E-78E5-D773-50558DE55C20">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-01 13:50:13 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<use>0</use>
+<domain>B90EBE87-C7BA-460C-C049-7A4076C87FB6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CRM_ACCOUNTS_ID" id="17DCAA32-3F07-8B98-762D-9678B73D088A">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-01 13:52:24 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<use>0</use>
+<domain>876E1B13-8B8E-5B55-CB6A-829CCF088504</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC76B47B-B801-08C4-DA11-E9D6CD22E4B1" referredColumn="C6B09F89-CF81-D001-2FA9-FAFE823AF52D"/>
+</associations>
+</Column>
+<Column name="CRM_CONTACTS_ID" id="3007B203-8745-CD5D-DC6C-A7F0593DF134">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-01 13:53:23 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<use>0</use>
+<domain>876E1B13-8B8E-5B55-CB6A-829CCF088504</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A126F5A1-705E-277E-8F97-349575A26EE6" referredColumn="F7795E65-DCD4-74B7-9AAD-3EE6A774FD52"/>
+</associations>
+</Column>
+<Column name="CRM_CONTACT_TYPES_ID" id="3A1B9458-B51C-647F-426F-4E626858AF99">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-02 14:53:45 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<use>0</use>
+<domain>149D2D6A-ECBA-5D87-60EB-90E9D54606EF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23E1256B-9FFD-7658-1319-8099A49A2503" referredColumn="26852902-0FC3-3F2B-3297-4F8B8169A502"/>
+</associations>
+</Column>
+<Column name="DESCRIPTION" id="7F46C96C-876B-C052-9572-366B17158EA6">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-01 13:50:13 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>E4ED3261-FC3F-9470-9069-90E80B3EDD06</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOTES" id="F68040A5-7D39-8512-737A-6C6E98319802">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-01 13:50:13 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>E4ED3261-FC3F-9470-9069-90E80B3EDD06</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEQ" id="95DDD341-367F-9F8A-7302-519277C0EA2B">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-01 13:50:13 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>B90EBE87-C7BA-460C-C049-7A4076C87FB6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENABLED" id="A8EE26AF-20B9-7257-B837-DC2B003A6635">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-01 13:50:13 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<constraintName>CRM_ACS_ENABLED_CHK</constraintName>
+<use>0</use>
+<domain>B76BC531-EA43-C4DD-1CF1-46FAE5E301E9</domain>
+<defaultValue>YES</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="4BA130EE-59F2-2E7A-38DA-D7A9600E2BEC">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-01 13:50:13 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<use>0</use>
+<domain>6829F1C4-310D-9AC4-5335-43B6CCC3173C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATION_DATE" id="E3210291-D904-DBE0-1987-99B657992CFD">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-01 13:50:13 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<domain>6D3E2306-4D82-CDD0-07E3-E12E5DD9C106</domain>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODIFIED_BY" id="92207244-F5EE-FACF-63EC-81DADD0F3707">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-01 13:50:13 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<use>0</use>
+<domain>6829F1C4-310D-9AC4-5335-43B6CCC3173C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODIFICATION_DATE" id="292BA547-AD1A-8C44-ED08-86B86FD270A2">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-01 13:50:13 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<domain>6D3E2306-4D82-CDD0-07E3-E12E5DD9C106</domain>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED57B689-730F-24C6-DDA2-B63C84E600B6" name="CRM_ACS_PK">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-01 13:50:13 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC18DA40-647E-78E5-D773-50558DE55C20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94DDE970-815C-0BA6-53AB-20F72AEB1750" name="CRM_ACS_UK">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 19:40:10 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17DCAA32-3F07-8B98-762D-9678B73D088A"/>
+<colUsage columnID="3007B203-8745-CD5D-DC6C-A7F0593DF134"/>
+<colUsage columnID="3A1B9458-B51C-647F-426F-4E626858AF99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="851A884D-F334-BDD5-41BA-B7E61B57043F" name="CRM_ACS_PK_IDX">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 18:48:45 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC18DA40-647E-78E5-D773-50558DE55C20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D927125-F0F1-C370-0DAA-A62C1EE7D545" name="CRM_ACS_CRM_ACT_FK_IDX">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 18:50:04 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17DCAA32-3F07-8B98-762D-9678B73D088A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBAF2B8E-8197-7A59-4BBF-612A58847026" name="CRM_ACS_CRM_CTP_FK_IDX">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 18:50:52 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A1B9458-B51C-647F-426F-4E626858AF99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF088F09-30B0-DD0D-E534-626091B1FE29" name="CRM_ACS_CRM_CTT_FK_IDX">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 18:51:27 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3007B203-8745-CD5D-DC6C-A7F0593DF134"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCE5C9CC-726A-BE95-77FF-8E6BC812A82D" name="CRM_ACS_UK_IDX">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 19:39:36 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17DCAA32-3F07-8B98-762D-9678B73D088A"/>
+<colUsage columnID="3007B203-8745-CD5D-DC6C-A7F0593DF134"/>
+<colUsage columnID="3A1B9458-B51C-647F-426F-4E626858AF99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAA26CAE-D0C9-5A59-6D65-09EA894E1682" name="CRM_ACS_CRM_ACT_FK">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-01 13:52:24 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17DCAA32-3F07-8B98-762D-9678B73D088A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D9FC602-6997-B4E0-AA9E-B6C56D69841C" name="CRM_ACS_CRM_CTT_FK">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-01 13:53:23 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3007B203-8745-CD5D-DC6C-A7F0593DF134"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3012930-4B06-7603-7794-8965852F865C" name="CRM_ACS_CRM_CTP_FK">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-02 14:53:45 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A1B9458-B51C-647F-426F-4E626858AF99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

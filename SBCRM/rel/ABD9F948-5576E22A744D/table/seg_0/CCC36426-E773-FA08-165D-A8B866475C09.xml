@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCC36426-E773-FA08-165D-A8B866475C09" name="CRM_COUNTRIES">
+<createdBy>admin</createdBy>
+<createdTime>2021-03-29 20:02:43 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<abbreviation>CRM_CTY</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ISO_CODE" id="458DD95B-D4E1-000B-2EEB-0D9921EFE877">
+<createdBy>admin</createdBy>
+<createdTime>2021-03-29 20:04:41 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY_NAME" id="B7493B41-67C3-00C2-7150-DD5005A8BE2F">
+<createdBy>admin</createdBy>
+<createdTime>2021-03-29 20:05:17 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>93CF8703-EC08-38A0-AA29-24D387444FD7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEQ" id="5BB9B106-48E7-9C0A-5559-81D05882C5A6">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-17 13:20:25 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>149D2D6A-ECBA-5D87-60EB-90E9D54606EF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F1C32D04-8F6F-06B5-0C4E-7EFB22D6368F" name="CRM_CTY_PK">
+<createdBy>admin</createdBy>
+<createdTime>2021-03-29 20:05:49 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="458DD95B-D4E1-000B-2EEB-0D9921EFE877"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C0F1977-F586-2A5D-2900-3111F5D57CEE" name="CRM_CTY_PK_IDX">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 19:13:24 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="458DD95B-D4E1-000B-2EEB-0D9921EFE877"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

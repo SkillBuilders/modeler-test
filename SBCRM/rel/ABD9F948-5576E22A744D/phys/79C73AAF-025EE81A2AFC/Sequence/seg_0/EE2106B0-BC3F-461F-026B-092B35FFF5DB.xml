@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="CRM_URL_PK_SEQ" directorySegmentName="seg_0" id="EE2106B0-BC3F-461F-026B-092B35FFF5DB">
+<sourceDDLFile>seq-ddl.sql</sourceDDLFile>
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 21:08:59 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<incrementBy>1</incrementBy>
+<maxValue>999</maxValue>
+<minValue>1</minValue>
+<noCache>YES</noCache>
+<order>YES</order>
+<startWith>1</startWith>
+</SequenceOraclev10g>

@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="SBCRM003" id="ABD9F948-5F7B-1FDB-B803-5576E22A744D" mainViewID="29937529-28DA-37DE-7BC9-0F798B3B29B9">
+<createdBy>admin</createdBy>
+<createdTime>2021-03-25 17:48:32 UTC</createdTime>
+<ownerDesignName>SBCRM001</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>SB@ADEV</connName>
+<connUser>SB</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>seq-ddl.sql</fileName>
+<pathName>C:\Users\lawto\Desktop</pathName>
+<dbType>14</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

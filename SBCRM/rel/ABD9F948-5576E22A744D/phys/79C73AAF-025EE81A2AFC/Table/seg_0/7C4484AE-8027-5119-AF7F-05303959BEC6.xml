@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CRM_ACTIVITIES_CONTACTS" directorySegmentName="seg_0" id="7C4484AE-8027-5119-AF7F-05303959BEC6">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 20:43:57 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MODIFICATION_DATE" id="104D197F-485D-6243-64D4-509E2A9BF21C">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 20:43:57 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="CRM_CONTACT_TYPES_ID" id="34A75541-4C86-CB17-6449-6EAB11F59DF9">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 20:43:57 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ENABLED" id="57EAFFCF-52EB-50ED-1B39-6A8ED1E04B82">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 20:43:57 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<defaultValue>YES</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="SEQ" id="62FD477B-F6DD-6CAF-1220-081BEEBDD3EC">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 20:43:57 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOTES" id="82E6554F-75AD-5B46-1072-5B554EC1C08D">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 20:43:57 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CRM_ACTIVITIES_ID" id="92326F8E-22C9-2FD4-52CB-9992F629B80C">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 20:43:57 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_BY" id="97A94575-5EEB-EB4C-DEE8-56CC74D0B3ED">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 20:43:57 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SB" id="AA348145-F03A-748A-42C0-B4C4568708A1">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 20:43:57 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<defaultValue>YES</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="CRM_CONTACTS_ID" id="B5E71197-A770-774A-A983-0702AFFB3233">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 20:43:57 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATION_DATE" id="BFECDBC4-BE47-CD2A-FD31-1A8BFC0C2C31">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 20:43:57 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="MODIFIED_BY" id="E06AC35F-83F0-0F55-2884-6CC1B651F612">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 20:43:57 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="E4E8572A-19D3-FFC5-4321-5D8B5296C9E2">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 20:43:57 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CRM_AAC_PK_IDX" id="0500B3D7-FDD8-11B5-70C6-FE5F2E979DAA">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 20:43:57 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CRM_AAC_CRM_AAY_FK_IDX" id="627DC0AB-C9C2-6904-80B3-ED4C42EFC04D">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 20:43:57 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CRM_AAC_UK_IDX" id="6E1E07B8-20E6-FB3E-29B1-E3AD079DCCB3">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 20:43:57 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CRM_AAC_CRM_CTP_FK_IDX" id="BA8C415D-F03C-B3A6-FF19-A4EC2EF341FB">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 20:43:57 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CRM_AAC_CRM_CTT_FK_IDX" id="FB2630EF-D2A6-3217-E0D0-0D2677E11429">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 20:43:57 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CRM_AAC_CRM_CTT_FK" id="8FF050DE-270D-EF5D-6210-D04857F950FD">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 20:43:57 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CRM_AAC_CRM_AAY_FK" id="BA6D2BD6-E514-5ED4-2F57-DDEA1C00877E">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 20:43:57 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CRM_AAC_CRM_CTP_FK" id="F4F69E4E-D115-B341-5196-18AA191C32C0">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 20:43:57 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CRM_AAC_PK" id="1122A730-2F45-29C3-E117-318D8CBA7BBF">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 20:43:57 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="CRM_AAC_UK" id="26AF6418-361A-8B39-59B7-67D6478055D4">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 20:43:57 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,28 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SBCRM" id="A8060AFE-DC60-91BB-D308-BFDE0AF2B76F" version="3.5">
+<createdBy>admin</createdBy>
+<createdTime>2021-03-25 17:48:30 UTC</createdTime>
+<ownerDesignName>SBCRM001</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A8060AFE-DC60-91BB-D308-BFDE0AF2B76F</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="A79E06D0-FFBA-9847-F393-D0F78483601A">
+<designStoragePath>D:\seq-ddl</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="296D15E8-64B8-0871-7FE4-C6527EC974F5">
+<designStoragePath>D:\seq-ddl</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="0D2E8EB7-7FD1-DFE3-640F-ACC62B065E79">
+<designStoragePath>C:\Users\lawto\Dropbox\SBCRM\MODEL</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="72A60274-4D26-379F-FD50-4A4882D524C7">
+<designStoragePath>C:\Users\lawto\Dropbox\SB-CRM\MODEL</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="5823D800-AB9F-1A4E-127D-D7E5BD18DD48">
+<designStoragePath>C:\Users\lawto\AppData\Local\Temp</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="FCEA363F-60C8-A78A-4BA6-57B408C493AD">
+<designStoragePath>C:\Users\lawto\Dropbox\SB-CRM\MODEL</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

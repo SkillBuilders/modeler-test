@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CRM_NAICS_CODES" directorySegmentName="seg_0" id="97242454-7DAB-3997-1D4A-27FAC0C4F313">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-26 17:19:07 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TITLE" id="19838082-B07A-7E5E-7F07-70BED03CE67B">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-26 17:19:07 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODE" id="369A74B1-4A70-D861-D439-F7AAA79D10BC">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-26 17:19:07 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="AB80078B-FC6F-222F-7EF4-9B353CC349E4">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-26 17:19:07 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CRM_NCD_PK_IDX" id="C3B78A9D-A690-AF8A-8E2C-ED16208A62AB">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-26 17:19:07 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CRM_NCD_PK" id="235FF05C-A967-81B4-2C9C-7C61D67BC496">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-26 17:19:07 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<existingIndex>C3B78A9D-A690-AF8A-8E2C-ED16208A62AB</existingIndex>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

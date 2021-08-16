@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A126F5A1-705E-277E-8F97-349575A26EE6" containerWithKeyObject="B5E0F0FC-7C4E-2F6F-1B63-DED96C5A4DC7" localFKIndex="0D9FC602-6997-B4E0-AA9E-B6C56D69841C" name="CRM_ACS_CRM_CTT_FK">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-01 13:53:23 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<referredTableLongName>CRM_CONTACTS</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>FB49940C-DEC1-D5E3-BE4D-D22F3806142B</referredTableID>
+<keyObject>98B47BB8-AD54-94FC-9B24-E646A1F0880A</keyObject>
+<referredKeyID>98B47BB8-AD54-94FC-9B24-E646A1F0880A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

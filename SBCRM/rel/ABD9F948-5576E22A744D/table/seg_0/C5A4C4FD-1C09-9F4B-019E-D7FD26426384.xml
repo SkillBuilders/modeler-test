@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5A4C4FD-1C09-9F4B-019E-D7FD26426384" name="CRM_ADDRESS_TYPES">
+<createdBy>admin</createdBy>
+<createdTime>2021-03-25 19:12:41 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<abbreviation>CRM_ATP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="A467B74B-B4D8-C5C1-9AF8-1AAD67C33D33">
+<createdBy>admin</createdBy>
+<createdTime>2021-03-25 19:12:41 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<use>0</use>
+<domain>149D2D6A-ECBA-5D87-60EB-90E9D54606EF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="C3233681-063C-C83B-6DF8-F40331971794">
+<createdBy>admin</createdBy>
+<createdTime>2021-03-25 19:12:41 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<use>0</use>
+<domain>6829F1C4-310D-9AC4-5335-43B6CCC3173C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="AC9B6161-A35B-0D97-2C8C-EDCA122361B3">
+<createdBy>admin</createdBy>
+<createdTime>2021-03-25 19:12:41 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>E4ED3261-FC3F-9470-9069-90E80B3EDD06</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOTES" id="EF134812-8502-86F5-7F7D-A332C068BCCF">
+<createdBy>admin</createdBy>
+<createdTime>2021-03-25 19:12:41 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>E4ED3261-FC3F-9470-9069-90E80B3EDD06</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEQ" id="1A37BDEF-C7C5-00C6-43B6-066462EADF00">
+<createdBy>admin</createdBy>
+<createdTime>2021-03-25 19:12:41 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>149D2D6A-ECBA-5D87-60EB-90E9D54606EF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENABLED" id="F6078572-4661-2D52-527B-7440861B42F8">
+<createdBy>admin</createdBy>
+<createdTime>2021-03-25 19:29:08 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<constraintName>CRM_ATP_ENABLED_CHK</constraintName>
+<use>0</use>
+<domain>B76BC531-EA43-C4DD-1CF1-46FAE5E301E9</domain>
+<defaultValue>YES</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="DEEC4091-3D0C-9CE2-6D1B-E73561BCE249">
+<createdBy>admin</createdBy>
+<createdTime>2021-03-25 19:12:41 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<use>0</use>
+<domain>6829F1C4-310D-9AC4-5335-43B6CCC3173C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATION_DATE" id="3377D4A1-60BB-15F7-8C55-6A7379A5926F">
+<createdBy>admin</createdBy>
+<createdTime>2021-03-25 19:12:41 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<domain>6D3E2306-4D82-CDD0-07E3-E12E5DD9C106</domain>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODIFIED_BY" id="080B90BA-2221-9FBD-6E0F-A95763EF996D">
+<createdBy>admin</createdBy>
+<createdTime>2021-03-25 19:12:41 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<use>0</use>
+<domain>6829F1C4-310D-9AC4-5335-43B6CCC3173C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODIFICATION_DATE" id="B0063277-D507-E8E8-F5BD-064CC7ADD228">
+<createdBy>admin</createdBy>
+<createdTime>2021-03-25 19:12:41 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<domain>6D3E2306-4D82-CDD0-07E3-E12E5DD9C106</domain>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92823154-DD7F-3584-842D-DC2480CA34C4" name="CRM_ATP_PK">
+<createdBy>admin</createdBy>
+<createdTime>2021-03-25 19:12:41 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A467B74B-B4D8-C5C1-9AF8-1AAD67C33D33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6EA65DE5-127D-D806-373D-41B9F2AA098D" name="CRM_ATP_NAME_UK">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 19:29:26 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3233681-063C-C83B-6DF8-F40331971794"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34DDEC19-03B7-D10A-C483-BC6D90683F15" name="CRM_ATP_PK_IDX">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 19:29:14 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A467B74B-B4D8-C5C1-9AF8-1AAD67C33D33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED5A41B1-4D16-99FF-4829-A710EC2106E7" name="CRM_ATP_NAME_UK_IDX">
+<createdBy>admin</createdBy>
+<createdTime>2021-04-16 19:29:14 UTC</createdTime>
+<ownerDesignName>SBCRM</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3233681-063C-C83B-6DF8-F40331971794"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
